@@ -1,2 +1,2 @@
 
-https://spunk-group.github.io/docs/
+https://spunk-group.github.io/developers/

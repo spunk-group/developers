@@ -1,12 +1,12 @@
 - name: Home
-  link: /docs/
+  link: /
   url: /
 - name: SSO
-  link: /docs/sso.html
+  link: /sso.html
   url: /sso.html
 - name: Blog
-  link: /docs/blog.html
+  link: /blog.html
   url: /blog.html
 - name: Staff
-  link: /docs/staff.html
+  link: /staff.html
   url: /staff.html
