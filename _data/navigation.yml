@@ -1,4 +1,4 @@
 - name: Home
-  link: /
-- name: About
-  link: /about
+  link: /docs/
+- name: SSO
+  link: /docs/sso/
