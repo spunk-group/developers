@@ -1,4 +1,6 @@
 - name: Home
   link: /docs/
+  url: /
 - name: SSO
-  link: /docs/sso/
+  link: /docs/sso.html
+  url: /sso.html
