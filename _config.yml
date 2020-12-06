@@ -1,4 +1,5 @@
-baseurl: "/developers"
+baseurl: /developers
+
 collections:
   authors:
     output: true
