@@ -4,3 +4,6 @@
 - name: SSO
   link: /docs/sso.html
   url: /sso.html
+- name: Blog
+  link: /docs/blog.html
+  url: /blog.html
