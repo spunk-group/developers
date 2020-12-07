@@ -19,29 +19,10 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-        <ul class="navbar-nav flex-row">
-            <li class="nav-item">
-                <a class="nav-link " href="/">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="/">SSO</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="/">Relaxer</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="/">Emporium</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="/">C-Empathy</a>
-            </li>
-        </ul>
-    </header>
+    {% include navigation.html %}
     <div class="container">
         <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 bd-sidebar">
-                {% include navigation.html %}
             </div>
             <main class="col-12 col-md-9" role="main">
                 {{ content }}
