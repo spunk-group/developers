@@ -121,13 +121,13 @@
             href="https://github.com/twbs/bootstrap/archive/v4.0.0.zip">Download</a>
     </header>
     <div class="container">
-        <div class="row">
-            <div class="col-sm">
+        <div class="row flex-xl-nowrap">
+            <div class="col-12 col-md-3 bd-sidebar">
                 {% include navigation.html %}
             </div>
-            <div class="col-sm">
+            <main class="col-12 col-md-9" role="main">
                 {{ content }}
-            </div>
+            </main>
         </div>
     </div>
 
