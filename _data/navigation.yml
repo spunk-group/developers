@@ -1,0 +1,15 @@
+- name: Home
+  link: /
+  url: /
+- name: SSO
+  link: /sso.html
+  url: /sso.html
+- name: Relaxer
+  link: /relaxer.html
+  url: /relaxer.html
+- name: Emporium
+  link: /staff.html
+  url: /staff.html
+- name: C-Empathy
+  link: /staff.html
+  url: /staff.html
