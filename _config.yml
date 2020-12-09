@@ -59,6 +59,8 @@ collections:
     output: true
   relaxerPosts:
     output: true
+  code_snipts:
+    output: true
 defaults:
   - scope:
       path: ""
