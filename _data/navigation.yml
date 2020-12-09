@@ -1,6 +1,8 @@
 - name: Home
   link: /
   url: /
+  sub_item:
+    - name: Test
 - name: SSO
   link: /sso.html
   url: /sso.html
