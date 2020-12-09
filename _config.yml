@@ -57,7 +57,8 @@ plugins:
 collections:
   authors:
     output: true
-
+  relaxerPosts:
+    output: true
 defaults:
   - scope:
       path: ""

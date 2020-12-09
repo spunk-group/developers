@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="page-wrappers">
+    <div class="col-md-9 documentation-body">
+
+<div>
+    {% for post in site.relaxerPosts %}
+    <h2 id="">
+        {{ post.title }}
+        <a class="headerlink" href="#introduction" title="Permanent link"></a>
+    </h2>
+    
+        {{ post.excerpt }}
+
+
+    {% endfor %}
+</div>
+</div>
+</div>
