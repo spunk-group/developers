@@ -1,8 +1,8 @@
-- name: Home
+- name: Relaxer
   link: /
   url: /
-  sub_item: 
-    - name: SSO
+  sub_item:
+    - name: Get Category List
       link: /sso.html
       url: /sso.html
     - name: SSO
