@@ -28,8 +28,22 @@
 <body class="windows desktop" data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
 
     {% include navigation.html %}
-    {{ content }}
-    <!-- <div>
+
+    <div class="page-wrappers">
+
+        <section class="p-b-50 p-t-50 documentation-content">
+            <div class="container">
+                <div class="panel panel-transparent">
+                    <div class="row p-l-20 p-r-20 p-b-20 p-t-5 xs-no-padding">
+                        <div class="row">
+                            {% include sidebar.html %}
+                            {{ content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <div>
         <h1 class="sl-l-container"> Documentation </h1>
     </div>
     <div class="container">
@@ -42,20 +56,20 @@
         </div>
     </div> -->
 
-    <!-- BEGIN VENDOR JS -->
+        <!-- BEGIN VENDOR JS -->
 
-    <script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/velocity.min.js"></script>
-    <script type="text/javascript" src="assets/js/velocity.ui.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/prism.js"></script>
-    <!-- END VENDOR JS -->
-    <!-- BEGIN PAGES FRONTEND LIB -->
-    <script type="text/javascript" src="assets/js/frontend.min.js"></script>
-    <!-- END PAGES LIB -->
-    <!-- BEGIN YOUR CUSTOM JS -->
-    <script type="text/javascript" src="assets/js/custom.js"></script>
-    <!-- END PAGES LIB -->
+        <script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/velocity.min.js"></script>
+        <script type="text/javascript" src="assets/js/velocity.ui.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/prism.js"></script>
+        <!-- END VENDOR JS -->
+        <!-- BEGIN PAGES FRONTEND LIB -->
+        <script type="text/javascript" src="assets/js/frontend.min.js"></script>
+        <!-- END PAGES LIB -->
+        <!-- BEGIN YOUR CUSTOM JS -->
+        <script type="text/javascript" src="assets/js/custom.js"></script>
+        <!-- END PAGES LIB -->
 
 </body>
 
