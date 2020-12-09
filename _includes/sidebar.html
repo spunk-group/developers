@@ -1,17 +1,16 @@
 <div class="col-md-3 documentation-toc">
     <ul class="current">
-
         {% for item in site.data.navigation %}
-        <li class="toctree-l1 current">
-            <a class="current" href="./">{{item.name}}</a>
-            <ul class="subnav">
-                <ul>
-                    { % for sub_item in item.sub_item %}
-                    <li><a class="toctree-l3" href="#system-requirements">{{sub_item.name}}</a></li>
-                    {% endfor %}
+            <li class="toctree-l1 current">
+                <a class="current" href="./">{{item.name}}</a>
+                 <ul class="subnav">
+                    <ul>
+                        {% for sub_item in item.sub_item %}
+                        <li><a class="toctree-l3" href="#system-requirements">{{sub_item.name}}</a></li>
+                        {% endfor %}
+                    </ul>
                 </ul>
-            </ul>
-        </li>
+            </li>
         {% endfor %}
 
         <li class="toctree-l1 current">

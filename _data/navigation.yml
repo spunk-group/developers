@@ -1,8 +1,19 @@
 - name: Home
   link: /
   url: /
-  sub_item:
-    - name: Test
+  sub_item: 
+    - name: SSO
+      link: /sso.html
+      url: /sso.html
+    - name: SSO
+      link: /sso.html
+      url: /sso.html
+    - name: SSO
+      link: /sso.html
+      url: /sso.html
+    - name: SSO
+      link: /sso.html
+      url: /sso.html
 - name: SSO
   link: /sso.html
   url: /sso.html
